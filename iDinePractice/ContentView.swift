@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  iDinePractice
+//  iDinePractice
 //
 //  Created by Thomas Frey on 29.03.23.
 //
