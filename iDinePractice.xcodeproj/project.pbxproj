@@ -79,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2702E52229DB0FDD0070B284 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				27B4046129D48113004FE4A0 /* Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		27B4042B29D480A5004FE4A0 = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +114,7 @@
 				27B4043929D480A5004FE4A0 /* ContentView.swift */,
 				27B4046529D48129004FE4A0 /* Menu.swift */,
 				27B4046329D48129004FE4A0 /* Order.swift */,
-				27B4046129D48113004FE4A0 /* Helper.swift */,
+				2702E52229DB0FDD0070B284 /* Helpers */,
 				27B4046429D48129004FE4A0 /* menu.json */,
 				27B4043B29D480A6004FE4A0 /* Assets.xcassets */,
 				27B4043D29D480A6004FE4A0 /* Preview Content */,
