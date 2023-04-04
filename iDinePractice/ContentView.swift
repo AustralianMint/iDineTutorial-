@@ -26,6 +26,9 @@ struct ContentView: View {
             }
             .navigationTitle("Json List")
             .listStyle(.grouped)
+            .onAppear(perform: {
+                playSound(sound: "Loyalty-Freak-Music-Hyper-Jingle-Bells", type: "mp3")
+            })
         }
     }
 }

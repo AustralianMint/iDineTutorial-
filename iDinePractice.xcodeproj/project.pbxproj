@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27A28FE429DB468A00F0D4CE /* playSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A28FE329DB468A00F0D4CE /* playSound.swift */; };
+		27A28FE829DB4A2F00F0D4CE /* Loyalty-Freak-Music-Hyper-Jingle-Bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27A28FE729DB4A2F00F0D4CE /* Loyalty-Freak-Music-Hyper-Jingle-Bells.mp3 */; };
 		27B4043829D480A5004FE4A0 /* iDinePracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B4043729D480A5004FE4A0 /* iDinePracticeApp.swift */; };
 		27B4043A29D480A5004FE4A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B4043929D480A5004FE4A0 /* ContentView.swift */; };
 		27B4043C29D480A6004FE4A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B4043B29D480A6004FE4A0 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27A28FE329DB468A00F0D4CE /* playSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playSound.swift; sourceTree = "<group>"; };
+		27A28FE729DB4A2F00F0D4CE /* Loyalty-Freak-Music-Hyper-Jingle-Bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Loyalty-Freak-Music-Hyper-Jingle-Bells.mp3"; sourceTree = "<group>"; };
 		27B4043429D480A5004FE4A0 /* iDinePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDinePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B4043729D480A5004FE4A0 /* iDinePracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDinePracticeApp.swift; sourceTree = "<group>"; };
 		27B4043929D480A5004FE4A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,8 +87,17 @@
 			isa = PBXGroup;
 			children = (
 				27B4046129D48113004FE4A0 /* Helper.swift */,
+				27A28FE329DB468A00F0D4CE /* playSound.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		27A28FE629DB494C00F0D4CE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				27A28FE729DB4A2F00F0D4CE /* Loyalty-Freak-Music-Hyper-Jingle-Bells.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		27B4042B29D480A5004FE4A0 = {
@@ -114,9 +127,10 @@
 				27B4043929D480A5004FE4A0 /* ContentView.swift */,
 				27B4046529D48129004FE4A0 /* Menu.swift */,
 				27B4046329D48129004FE4A0 /* Order.swift */,
-				2702E52229DB0FDD0070B284 /* Helpers */,
-				27B4046429D48129004FE4A0 /* menu.json */,
 				27B4043B29D480A6004FE4A0 /* Assets.xcassets */,
+				2702E52229DB0FDD0070B284 /* Helpers */,
+				27A28FE629DB494C00F0D4CE /* Sounds */,
+				27B4046429D48129004FE4A0 /* menu.json */,
 				27B4043D29D480A6004FE4A0 /* Preview Content */,
 			);
 			path = iDinePractice;
@@ -251,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A28FE829DB4A2F00F0D4CE /* Loyalty-Freak-Music-Hyper-Jingle-Bells.mp3 in Resources */,
 				27B4046729D48129004FE4A0 /* menu.json in Resources */,
 				27B4043F29D480A6004FE4A0 /* Preview Assets.xcassets in Resources */,
 				27B4043C29D480A6004FE4A0 /* Assets.xcassets in Resources */,
@@ -279,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27B4043A29D480A5004FE4A0 /* ContentView.swift in Sources */,
+				27A28FE429DB468A00F0D4CE /* playSound.swift in Sources */,
 				27B4043829D480A5004FE4A0 /* iDinePracticeApp.swift in Sources */,
 				27B4046629D48129004FE4A0 /* Order.swift in Sources */,
 				27B4046229D48114004FE4A0 /* Helper.swift in Sources */,
